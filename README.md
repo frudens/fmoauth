@@ -1,5 +1,7 @@
 # fmOAuth
 
+[![Join the chat at https://gitter.im/frudens-com/fmoauth](https://badges.gitter.im/frudens-com/fmoauth.svg)](https://gitter.im/frudens-com/fmoauth?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 fmOAuth is a solution for accessing APIs such as Google and Microsoft from FileMaker, and it consists only of scripts.
 
 NOTE: I think that it is better to implement it as "2-legged OAuth" or "2LO" than to call the API from FileMaker client.
