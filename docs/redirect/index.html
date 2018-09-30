@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>fmOAuth</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="col-lg-12 text-center">
+        <h2 class="form-signin-heading">Copy this code.</h2>
+        <label for="inputCode" class="sr-only">code</label>
+        <input type="text" id="inputCode" class="form-control" placeholder="code" required autofocus>
+      </form>
+
+    </div> <!-- /container -->
+
+    <script>
+    document.getElementById("inputCode").value = getParam('code');
+
+    /**
+     * Get the URL parameter value
+     *
+     * @param  name {string} パラメータのキー文字列
+     * @return  url {url} 対象のURL文字列（任意）
+     */
+    function getParam(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
