@@ -37,6 +37,16 @@ NOTE: I think that it is better to implement it as "2-legged OAuth" or "2LO" tha
 
 [![demo](https://user-images.githubusercontent.com/31458364/46595590-12ccdb80-cb14-11e8-96b2-2f484fe4c3ae.png)](https://www.youtube.com/watch?v=TH_XAoOtnr4)
 
+# Q&A
+
+## Q: How do you open a script workspace?
+
+* Open `fmoauth.fmp12`
+* Re-login ( account:`admin` | password:`admin` )
+* Select `Menu Bar` -> `Tools` -> `Custom Menus` -> `[Standard FileMaker Menus]`
+* Select `Scripts` -> `Script Workspace`
+* Video here [https://www.youtube.com/watch?v=rXM2wQBEl7c](https://www.youtube.com/watch?v=rXM2wQBEl7c)
+
 # Release History
 
 ## v0.0.4
