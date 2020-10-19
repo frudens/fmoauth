@@ -8,7 +8,7 @@ NOTE: I think that it is better to implement it as "2-legged OAuth" or "2LO" tha
 
 [Using OAuth 2.0 for Server to Server Applications](https://developers.google.com/identity/protocols/OAuth2ServiceAccount)
 
-## Announcements
+# Announcements
 
 I have created a simple file to run the main methods of Google's APIs (Gmail, Google Drive, Google Calendar).
 Check it out if you like!
